@@ -1,4 +1,21 @@
 
+class TabItem {
+  constructor(element) {
+    // Assign this.element to the passed in element
+    // this.element;
+  }
+
+  select() {
+    // Select all ".tabs-item" elements from the DOM
+    // const items;
+
+    // Remove the class "tabs-item-selected" from each element
+    
+    // Add a class named "tabs-item-selected" to this element
+    //this.element;
+  }
+}
+
 class TabLink {
   constructor(element) {
     // Assign this.element to the passed in DOM element
@@ -11,7 +28,7 @@ class TabLink {
     this.itemElement = documnet.querySelector(`[data-tab="${this.data}"]`);
     
     // Using the Item element, create a new instance of the TabItem class
-    // this.tabItem;
+    this.tabItem = new TabItem(this.itemElement);
     
     // Add a click event listener on this instance, calling the select method on click
 
@@ -32,22 +49,6 @@ class TabLink {
   }
 }
 
-class TabItem {
-  constructor(element) {
-    // Assign this.element to the passed in element
-    // this.element;
-  }
-
-  select() {
-    // Select all ".tabs-item" elements from the DOM
-    // const items;
-
-    // Remove the class "tabs-item-selected" from each element
-    
-    // Add a class named "tabs-item-selected" to this element
-    //this.element;
-  }
-}
 
 /* START HERE: 
 
