@@ -8,7 +8,7 @@ class TabLink {
     this.data = this.element.dataset.tab;
     
     // Using the custom data attribute get the associated Item element
-    // this.itemElement;
+    this.itemElement = documnet.querySelector(`[data-tab="${this.data}"]`);
     
     // Using the Item element, create a new instance of the TabItem class
     // this.tabItem;
