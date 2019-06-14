@@ -50,7 +50,7 @@ class TabLink{
   deselect(){
     this.currentTab.classList.remove('tabs-link-selected');
     //console.log(this.element);
-    //let parent = this.element.querySelector('.tabs-item-selected');
+    //let parent = this.element.parentNode;
     //parent.classList.remove('tabs-item-selected');
   }
 
